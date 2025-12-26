@@ -97,4 +97,143 @@
    3. N size, N-1 players.
 2. BotWinningStrategy, WinningStrategy - Strategy Pattern
 
+## Sample play
 
+- Enter the dimension of the game 
+  - 3 
+- Will there be any bot in game 
+  - y 
+- What is the name of the player, number: 0 
+  - muskan
+- What is the symbol of the player, number: 0 
+  - x
+- What is the name of the Bot 
+  - sonali
+- What is the symbol of the bot 
+  - o
+- Current board status:
+  - | || || | 
+  - | || || | 
+  - | || || |
+
+- Current board status:
+  - |o|| || | 
+  - | || || | 
+  - | || || | 
+  
+- Enter the row for your move: 
+  - 0
+- Enter the col for your move:
+  - 0 
+  - An error occured: Cell already filled 
+  - Current board status:
+    - |o|| || | 
+    - | || || | 
+    - | || || |
+- Enter the row for your move:
+  - 0 
+- Enter the col for your move:
+  - 1 
+- Do you want to undo your move? Y/N 
+  - y 
+  - New board after undo == 
+    - |o|| || | 
+    - | || || | 
+    - | || || | 
+  - Current board status:
+    - |o|| || | 
+    - | || || | 
+    - | || || |
+- Enter the row for your move:
+  - 1 
+- Enter the col for your move:
+  - 1 
+- Do you want to undo your move? Y/N 
+  - n 
+  - Current board status:
+    - |o|| || | 
+    - | ||x|| | 
+    - | || || |
+  - Current board status:
+    - |o||o|| | 
+    - | ||x|| | 
+    - | || || |
+- Enter the row for your move:
+  - 0
+- Enter the col for your move:
+  - 2
+- Do you want to undo your move? Y/N
+  - n 
+  - Current board status:
+    - |o||o||x| 
+    - | ||x|| | 
+    - | || || |
+  - Current board status:
+    - |o||o||x| 
+    - |o||x|| | 
+    - | || || |
+- Enter the row for your move:
+  - 2
+- Enter the col for your move:
+  - 2
+- Do you want to undo your move? Y/N
+  - y
+  - New board after undo == 
+    - |o||o||x| 
+    - |o||x|| | 
+    - | || || |
+  - Current board status:
+    - |o||o||x| 
+    - |o||x|| | 
+    - | || || |
+- Enter the row for your move:
+  - 2
+- Enter the col for your move:
+  - 0
+- Do you want to undo your move? Y/N 
+  - y 
+  - New board after undo ==
+    - |o||o||x|
+    - |o||x|| |
+    - | || || |
+  - Current board status:
+    - |o||o||x|
+    - |o||x|| |
+    - | || || |
+- Enter the row for your move:
+  - 2
+- Enter the col for your move:
+  - 0
+- Do you want to undo your move? Y/N
+  - n
+- The winner is :muskan 
+  - Final board states:
+    - |o||o||x|
+    - |o||x|| |
+    - |x|| || |
+- DO YOU WANT A REPLAY Y/N
+  - y
+  - 
+  - |o|| || |
+  - | || || |
+  - | || || |
+  - 
+  - |o|| || | 
+  - | ||x|| |
+  - | || || | 
+  - 
+  - |o||o|| |
+  - | ||x|| |
+  - | || || |
+  - 
+  - |o||o||x|
+  - | ||x|| |
+  - | || || |
+  - 
+  - |o||o||x|
+  - |o||x|| |
+  - | || || |
+  - 
+  - |o||o||x|
+  - |o||x|| |
+  - |x|| || |
